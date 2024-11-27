@@ -15,4 +15,6 @@ public class ContactsInsertDryRun {
         List<Custom_Sales__c> results = (List<Custom_Sales__c>) dwresult.getValue();
 		upsert results;
     }
+
+    
 }
